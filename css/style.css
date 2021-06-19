@@ -319,3 +319,16 @@
   margin-bottom: 10px;
   color: white;
 }
+
+.footer1 {
+  display: flex;
+ justify-content: space-around;
+ }
+
+ .footer1 ul {
+   list-style: none;
+   
+ }
+
+ 
+
