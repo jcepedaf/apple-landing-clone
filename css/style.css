@@ -15,8 +15,12 @@
 .navbar-menu {
   background-color: #494949;
   height: 44px;
+  position:fixed;
+  top: 0;
+  width: 100%;
+  opacity: .9;
+  z-index: 1;
 }
-
 .navbar-items-list {
   font-size: 14px;
   height: 44px;
@@ -44,6 +48,7 @@
   height: 90vh;
   text-align: center;
   padding-top: 20px;
+  
 }
 
 .hero h1 {
@@ -206,6 +211,9 @@
   margin-top: 20px;
   width: 100%;
   margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-8 h1 {
